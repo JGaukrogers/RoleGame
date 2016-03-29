@@ -1,0 +1,17 @@
+Welcome to RoleGame
+
+This game player is for defining and playing RPG games, however it's still in its early stage, so no stories can be defined yet (and no "end of game, sorry").
+Each world is defined in an xml File which you must load to be able to play. 
+You can play this game in console mode or in gui mode, but the first one is recommended for now.
+
+Console Mode:
+Execute Game object.
+To load a game, you must type "load $GAME_PATH", where $GAME_PATH is the absolute or relative path to the file you want to load.
+Once the game is loaded, you can look arround by typing "look", and to look at a particular element, just type "look $ELEMENT".
+To move from one place to another type "go $PLACE_TO_GO".
+To fight some enemy, type "fight $NAME_OF_THE_ENEMY".
+There is also the search command, but for now it just informs you that you just used it.
+
+Finally, when you get bored of this crap, you can just type "exit", to nicely exit this *ehem* game.
+
+Have fun!

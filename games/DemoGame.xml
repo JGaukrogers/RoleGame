@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<game>
+	<place>
+		<name>Forest</name>
+		<id>0</id>
+		<description>It is a nice forest, where the birds sing and the squirrels play. The way in front of you splits in two paths: to Sea and to Town-Planes.</description>
+		<connections>
+			<connection>1</connection>
+			<connection>2</connection>
+		</connections>
+	</place>
+	<place>
+		<name>Town-Planes</name>
+		<id>1</id>
+		<description>You are in the Town planes. Behind of you lays the forest, and in front of you you can see the path that leads to Town.</description>
+		<connections>
+			<connection>0</connection>
+			<connection>3</connection>
+		</connections>
+	</place>
+	<place>
+		<name>Sea</name>
+		<id>2</id>
+		<description>You can see the sea in front of you. Behind of you lays the forest, and in front of you the gulls fly in the sky, and the sea plays its melody.</description>
+		<connections>
+			<connection>0</connection>
+		</connections>
+		<objects>
+			<weapon name="sword" description="Just a lousy sword" attack="3">
+			</weapon>
+		</objects>
+	</place>
+		<place>
+		<name>Town</name>
+		<id>3</id>
+		<description>You are in the Town. The people seem peaceful, but are afraid about bandits.</description>
+		<connections>
+			<connection>1</connection>
+		</connections>
+	</place>
+
+
+	<enemie>
+		<name>Bandit</name>
+		<description>It's a tall robust man, with bride shoulders and masked face.</description>
+		<level>1</level>
+		<location>1</location>
+	</enemie>
+</game>
